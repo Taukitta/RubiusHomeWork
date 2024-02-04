@@ -7,12 +7,14 @@ namespace Lesson2;
 
 public class Program
 {
-    Console.WriteLine("Введите год!");
+
     public static void Main(int.value1)
     {
-        var value1 = Console.ReadLine()
+        Console.WriteLine("Введите год!");
 
-        if (value1 % 4 == 0, value1 % 400 == 0, value1 % 100 != 0)
+        var value1 = Console.ReadLine();
+
+        if (value1%4 == 0, value1%400 == 0, value1%100 != 0)
         {
             Console.WriteLine("Год високостый!");
         }
