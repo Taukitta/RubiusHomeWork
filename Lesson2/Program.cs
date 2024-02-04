@@ -16,14 +16,13 @@ public class Program
 
         var value1 = int.Parse(string1);
 
-        if (value1 % 4 == 0, value1 %
+        if (value1 % 4 == 0 && value1 % 100 != 0 || value1 % 400 == 0)
         {
-            Console.WriteLine("YES;
+            Console.WriteLine("YES");
         }
         else
         {
-            Console.WriteLine("NO);
+            Console.WriteLine("NO");
         }
     }
 }
-
