@@ -8,19 +8,21 @@ namespace Lesson2;
 public class Program
 {
 
-    public static void Main(int.value1)
+    public static void Main(string[] args)  
     {
         Console.WriteLine("Введите год!");
 
-        var value1 = Console.ReadLine();
+        var string1 = Console.ReadLine();
 
-        if (value1%4 == 0, value1%400 == 0, value1%100 != 0)
+        var value1 = int.Parse(string1);
+
+        if (value1 % 4 == 0, value1 %
         {
-            Console.WriteLine("Год високостый!");
+            Console.WriteLine("YES;
         }
         else
         {
-            Console.WriteLine("Год не високосный");
+            Console.WriteLine("NO);
         }
     }
 }
